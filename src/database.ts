@@ -1,7 +1,7 @@
 import mongoose from "mongoose";
 import { isDebuggerStatement } from "typescript";
 
-const uri = "mongodb://localhost/test";
+const uri = "mongodb://my_user:my_pwd@localhost:27017/mern";
 const options = {};
 
 mongoose
